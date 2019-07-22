@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>GifTastic</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Giphy Images Project</h1>
+	
+		<!-- Gifs will get dumped here -->
+		<div id="buttons-view"></div>
+	
+		<form id="image-form">
+		  <label for="image-input">Add an Image!</label>
+		  <input type="text" id="image-input"><br>
+	
+		  <!-- Button triggers new movie to be added -->
+		  <input id="add-image" type="submit" value="Add an Image!">
+		</form>
+		<div id="images-view"></div>
+	</div>
+	<script type="text/javascript" src="assets/javascript/apiKey.js"></script>
+	<script type="text/javascript" src="assets/javascript/giftastic.js"></script>
+</body>
+
+</html>
